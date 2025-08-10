@@ -1,367 +1,153 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Calistus Ndubuisi Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calistus Ndubuisi Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .portfolio-title {
+      text-align: center;
+      margin-top: 40px;
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+    .card img {
+      height: 200px;
+      object-fit: cover;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+    .profile-pic img {
+      object-fit: cover;
+      border: 4px solid #fff;
+      transition: box-shadow 0.3s ease;
+    }
+    .profile-pic img:hover {
+      box-shadow: 0 0 15px rgba(255,255,255,0.7);
+    }
+    footer {
+      background: #343a40;
+      color: #fff;
+      padding: 20px 0;
+      margin-top: 50px;
+    }
+    footer a {
+      color: #ffc107;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
 
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+  <!-- Header -->
+<!-- Header -->
+<!-- Header -->
+<!-- Header -->
+<!-- Header -->
+<header class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="d-flex align-items-center justify-content-between">
+      <div>
+        <h1>Calistus Ndubuisi</h1>
+        <p>Analytics Specialist | Python | SQL | Power BI | Excel</p>
+      </div>
+      <div class="profile-pic">
+        <img src="images/profile.jpg" alt="Calistus Ndubuisi" class="border border-4 border-light rounded-4" width="300" height="300">
+      </div>
+    </div>
+  </div>
+</header>
 
-	<!-- Wrapper -->
-	<div id="wrapper" class="fade-in">
-				<!-- Intro -->
-				<body class="is-preload">
-				<article id="top" class="wrapper style1">
-					<div class="container">
-						<div class="row">
-							<div class="col-7 col-3-large col-12-medium">
-								<span class="image fit"><img src="images/edit2.png" alt="" /></span>
-							</div>
-							<div class="col-4 col-9 large col-12-medium">
-								<header>
-									<div id="intro">
-										<h1>CALISTUS NDUBUISI<br />
-											PORTFOLIO</h1>
-										<p>Unlocking insights and driving growth: Expert in analytics well-versed in SQL, Python, Tableau, Power BI and MS-Excel!!
-		
-										<ul class="actions">
-											<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-										</ul>
-									</div>
-						</div>
-					</div>
-				</article>
-			</body>
+ <!-- Intro -->
+  <div class="container my-5">
+    <h2 class="portfolio-title">Top 5 Projects</h2>
+    <div class="row mt-4 g-4">
 
-				<!-- Header -->
-					<header id="header">
-						
-					</header>
+      <!-- Python -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/bikeshare.webp" class="card-img-top" alt="Bike Share Visualization">
+          <div class="card-body">
+            <h5 class="card-title">Bike Share Visualization (Python)</h5>
+            <p class="card-text">Used Python to analyze bike-sharing data with heatmaps, regression plots, and correlation analysis for trend insights.</p>
+            <a href="https://github.com/romeofx/PortfolioProjects/blob/main/python_project_Bike_share_visualization.ipynb" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li class="active"><a href="index.html">PROJECTS</a></li>
-						
-						</ul>
-						<ul class="icons">
-							<li><a href="https://twitter.com/webpicatech" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="https://www.facebook.com/calistus.ndubuisi.3?mibextid=LQQJ4d" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="https://www.linkedin.com/in/calistusndubuisi1" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/romeofx" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+      <!-- SQL 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/covid19.jpg" class="card-img-top" alt="COVID-19 SQL Analysis">
+          <div class="card-body">
+            <h5 class="card-title">COVID-19 Data Exploration (SQL)</h5>
+            <p class="card-text">Explored global COVID-19 dataset using SQL Server with joins, CTEs, and aggregate queries for further visualization.</p>
+            <a href="https://github.com/romeofx/PortfolioProjects/blob/main/CovidSQLproject" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
 
-				<!-- Main -->
-					<div id="main">
+      <!-- SQL 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/pizzapics.jpeg" class="card-img-top" alt="Pizza Sales SQL">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Sales Cleaning (SQL)</h5>
+            <p class="card-text">Processed and cleaned pizza sales data in SQL Server. Applied aggregate functions, rounding, and created views.</p>
+            <a href="https://github.com/romeofx/PortfolioProjects/blob/main/PizzasalesSQLproject" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									
-									<h2><a href="#">DATA VISUALIZATION<br />
-									USING PYTHON PROGRAMMING LANGUAGE</a></h2>
-									<p>
-In this project, I utilized raw data from a bike-sharing shop to craft a compelling visual narrative and glean insights using custom and out-of-the-box visualizations. The learning objectives included mastering techniques such as creating heatmaps, regression plots, correlation plots, and a ridge plot. The analysis encompassed group-by operations, statistical correlation, datetime manipulation, and mapping
-										<br />
-									
-								<a href="#" class="image main"><img src="images/bikeshare.webp" alt="" /></a>
-								<ul class="actions special">
-									<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/python_project_Bike_share_visualization.ipynb" class="button large">View Project</a></li>
-								</ul>
-							</article>
+      <!-- Power BI -->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="images/pizzapics.jpeg" class="card-img-top" alt="Pizza Sales Power BI">
+          <div class="card-body">
+            <h5 class="card-title">Pizza Sales Visualization (Power BI)</h5>
+            <p class="card-text">Created Power BI dashboard tracking pizza sales trends, category performance, and top products by revenue.</p>
+            <a href="https://github.com/romeofx/PortfolioProjects/blob/main/pizza%20project.pbix" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
 
-						<!-- Posts -->
-							<section class="posts">
-								<article>
-									<header>
-									
-										<h2><a href="#">COVID 19<br />
-											DATA EXPLORATION</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
-									<p>In this project, I utilized SQL Server to delve into global COVID-19 data.
-Steps Applied : Downloaded COVID-19 dataset from Kaggle, opened data in Excel spreadsheet, performed data cleaning in Excel, imported to Microsoft SQL Server, and conducted Data Exploration for subsequent Visualization in Tableau. Skills Used: Joins, CTEs, Temp Tables, Window Functions, Aggregate Functions, Creating Views, and Converting Data Types.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/CovidSQLproject" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">HUMAN RESOURCES<br />
-											DATA VISUALIZATION IN TABLEAU</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/human-resources.jpg" alt="" /></a>
-									<p>
-In this project, I utilized Human Resources raw data downloaded from Kaggle to develop an interactive Dashboard using Tableau. The dashboard offered insightful visualizations of workforce metrics, enhancing HR efficiency and strategic planning within the organization. I was tasked with identifying KPIs, analyzing Attrition by Gender, determining Attrition percentage by Department, examining Number of Employees by Age group, assessing Job Satisfaction Rating, evaluating Attrition Rate by Gender for Different Age groups, and exploring Education Field by Attrition.
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/calistus.ndubuisi/viz/HRAnalyticsFullproject/HRAnalyticsDashboard" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">AIRBNB<br />
-											DATA VISUALIZATION IN TABLEAU</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/arinbupics.jpg" alt="" /></a>
-									<p>In this project, I utilized Tableau to create a dashboard analyzing AirBnB data downloaded from Kaggle. The dashboard provided insights into Monthly price by room type, price by zipcode, Average price by room type, Average price by zipcode, Distinct count listing ID by Bedroom, Weekly price per bedroom, and Revenue for the year. This data-driven tool contributed to optimizing property listings and pricing strategies, ultimately enhancing profitability and guest satisfaction.
+      <!-- Excel -->
+      <div class="col-md-6">
+        <div class="card">
+          <img src="images/nestle.jpg" class="card-img-top" alt="Nestle Sales Analysis">
+          <div class="card-body">
+            <h5 class="card-title">Nestle Sales Analysis (Excel)</h5>
+            <p class="card-text">Cleaned and visualized Nestle sales data in Excel to reveal trends, top locations, and product performance insights.</p>
+            <a href="https://github.com/romeofx/PortfolioProjects/blob/main/Nestle%20Sales%20Analysis%20Dataset.xlsx" target="_blank" class="btn btn-primary">View Project</a>
+          </div>
+        </div>
+      </div>
 
-										</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/calistus.ndubuisi/viz/AirBNBFullProject_16892008951010/Dashboard2" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">COVID 19 <br />
-											DATA VISUALIZATION IN TABLEAU</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/covid19.jpg" alt="" /></a>
-									<p>In this project, I utilized COVID-19 raw data to create an interactive Tableau dashboard, providing insights into global numbers, total death counts per continent, and the percentage of population infected per country.</p>
-									<ul class="actions special">
-										<li><a href="https://public.tableau.com/app/profile/calistus.ndubuisi/viz/CovidFullProject_16893369014400/Dashboard1
-											" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">NESTLE <br />
-											DATA CLEANING AND VISUALIZATION IN EXCEL</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/nestle.jpg" alt="" /></a>
-									<p>
-In this project, I utilized MS-Excel to clean and visualize the Nestle Dataset, uncovering insights such as the trend of total sales per product in the last 3 years, monthly sales trends, comparison of products based on maximum and minimum revenue generated, identification of locations with the highest and lowest sales, and generating insights from the sales medium to assist the Head of Growth in decision-making.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/Nestle%20Sales%20Analysis%20Dataset.xlsx" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-									
-										<h2><a href="#">ECOMMERCE<br />
-											DATA VISUALIZATION IN EXCEL</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/ecommerce.jpg" alt="" /></a>
-									<p>
-Proficiently utilized Excel to craft illuminating data visualizations for an e-commerce enterprise, translating intricate sales and customer data into clear graphs and charts. The insights gained included primary KPIs such as the sum of Sales, Profit, Quantity, and Profit Margin, along with the count of OrderID, Year on Year KPI comparison (Current Year vs. Previous Year Sum of Sales), Sales and Profit Analysis, Profit by Category, Sales percentage by Category, Sales by State, and the Top 5 Sub-categories by Sales.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/EcommerceSalesAnalysisEXCELproject.xlsb
-											" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">BIKE BUYERS<br />
-											DATA CLEANING AND VISUALIZATION IN EXCEL</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/bikessss.jpeg" alt="" /></a>
-									<p>In this project I utilized MS-Excel to analyze Bike Buyers Raw data and create visualization to gain the following insights: Average income per purchase, Customer Age brackets, Customer Commute, Average income per region, Countgender per car.</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/BikebuyersEXCELproject.xlsx" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">PIZZA SALES  <br />
-											DATA VISUALIZATION IN POWER BI</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pizzapics.jpeg" alt="" /></a>
-									<p>
-In this project, I employed Power BI to create a comprehensive pizza sales data visualization system, effectively depicting the Daily trend for orders, Monthly trend for orders, percentage of sales by Pizza_category, Percentage sales by pizza_size, Total pizza sold by pizza_category, Top & Bottom 5 pizza by revenue, Top & Bottom 5 pizza by Quantity, and Top & Bottom 5 pizza by Total orders.
+    </div>
+  </div>
 
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/pizza%20project.pbix
-											" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">HOTEL <br />
-											DATA VISUALIZATION IN POWER BI</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/hotelpics.jpg" alt="" /></a>
-									<p>
-In this project, I utilized Power BI to create a visual data story or dashboard for stakeholders, encompassing insights on hotel revenue growth by year, segmented by hotel type, the potential need to increase parking lot size based on trends in guests with personal cars, and exploration of data trends such as average daily rate and guest count to uncover seasonality.
-										</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/Hotel%20data.pbix" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">DATA-PROFESSIONAL <br />
-											DATA VISUALIZATION IN POWER BI</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/dataprof.jpeg" alt="" /></a>
-									<p>In this project, I utilized Power BI to visualize Data-professional raw data, extracting insights on Average salary by job title, Favorite Programming language, Country of survey takers, Difficulty to break into Data, Count of survey takers, Happiness with Work/Life balance, and Satisfaction with salary.
-									</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/Hotel%20data.pbix" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">HOTEL DATA<br />
-											CLEANING AND EXPLORATION</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/hotelpics.jpg" alt="" /></a>
-									<p>
-In this project, I cleaned and explored Hotel raw Data to analyze revenue growth by year, parking lot size trends, and data insights on average daily rate and guests. Skills used include Union, Joins, Aggregate Functions, Creating Views, and Rounding to 2 Decimal. The dataset was processed using MS-SQL SERVER and visualized using Power BI.
-										</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/HotelDataSQLQuery" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">PIZZA SALES<br />
-											DATA CLEANING AND EXPLORATION</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pizzapics.jpeg" alt="" /></a>
-									<p>
-In this project, I utilized SQL Server to explore Pizza sales raw data. Steps included downloading the dataset from Kaggle, importing it to Microsoft SQL Server, and performing cleaning and exploration tasks. Skills employed were Rounding to 2 Decimal, Aggregate Functions, Creating Views, and Cast to decimal.
+  <!-- Footer -->
+  <footer class="text-center">
+    <p>Ebonyi State, Nigeria | <a href="mailto:Calistusndubuisi4@gmail.com">Calistusndubuisi4@gmail.com</a> | +234-810-469-0511</p>
+    <p>
+      <a href="https://twitter.com/webpicatech"><i class="fab fa-twitter fa-lg"></i></a> |
+      <a href="https://www.facebook.com/calistus.ndubuisi.3?mibextid=LQQJ4d"><i class="fab fa-facebook fa-lg"></i></a> |
+      <a href="https://www.linkedin.com/in/calistusndubuisi1"><i class="fab fa-linkedin fa-lg"></i></a> |
+      <a href="https://github.com/romeofx"><i class="fab fa-github fa-lg"></i></a>
+    </p>
+  </footer>
 
-										</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/PizzasalesSQLproject" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">BIKE BUYERS<br />
-											DATA EXPLORATION</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/bikessss.jpeg" alt="" /></a>
-									<p>
-In this project, I utilized SQL Server to explore global Bike buyers raw data. Steps involved downloading the dataset from Kaggle, opening data in an Excel spreadsheet, performing data cleaning in Excel, importing it to Microsoft SQL Server, and conducting Data Exploration. Skills utilized included Rounding to 2 Decimal, Aggregate Functions, and Creating Views.
-										</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/BikeBuyersSQLproject" class="button">View Project</a></li>
-									</ul>
-								</article>
-																<article>
-									<header>
-										
-										<h2><a href="#">STOCK PRICE<br />
-											DATA EXPLORATION</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/stockphotos.jpg" alt="" /></a>
-									<p>
-In this project, I utilized PostgreSQL to explore Stock price raw data. Steps involved downloading the dataset from Kaggle, importing it to PgAdmin, and conducting Data Exploration. Skills used included Rounding to 2 Decimal, Aggregate Functions, Creating Views, CTEs, Subquery, and Join.
-										</p>
-									<ul class="actions special">
-										<li><a href="https://github.com/romeofx/PortfolioProjects/blob/main/Stock%20price" class="button">View Project</a></li>
-									</ul>
-								</article>
-								<article>
-									<header>
-										
-										<h2><a href="#">KPMG AU DATA ANALYTICS<br/>
-										
-									</header>
-									<a href="#" class="image fit"><img src="images/kpmGimage.jpg" /></a>
-									<p> Completed a simulation focused on advising a client on customer targeting with the Data Analytics & Modelling team
-			                            </p> 
-										<p> Assessed data quality and completeness in preparation for analysis
-										<p> Analysed data to target high-value customers based on demographics and attributes
-			                            </p> 
-										<p> Developed dashboards to communicate findings with visuals
-
-			                            </p> 
-											
-								
-
-                                        <ul class="actions special">
-										<li><a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/KPMG%20AU/m7W4GMqeT3bh9Nb2c_KPMG%20AU_9zy2Nf2reaigyFftX_1698007401567_completion_certificate.pdf" class="button">View Project</a></li>
-									</ul>
-								</article>
-								
-							</section>
-
-					
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-					
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-			                     Ebonyi State, Nigeria</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">+234-810-469-0511</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">Calistusndubuisi4@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="https://twitter.com/webpicatech" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="https://www.facebook.com/calistus.ndubuisi.3?mibextid=LQQJ4d" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="https://www.linkedin.com/in/calistusndubuisi1" class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
-									<li><a href="https://github.com/romeofx" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>Copyright &copy; 2023 </li><li>Calistusndubuisi - All Right Reserved
-					</div>
-
-			</div>
-			<script type="text/javascript">
-    (function () {
-        var options = {
-            whatsapp: "+2348104690511", // WhatsApp number
-            call_to_action: "Contact me to learn more about my professional services", // Call to action
-            position: "left", // Position may be 'right' or 'left'
-        };
-        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
-        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
-        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
-        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
-    })();
-</script>
-		
-											
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
-
